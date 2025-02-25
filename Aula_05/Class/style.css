@@ -1,0 +1,39 @@
+body{
+    width: 60vw;
+    margin: auto;
+}
+
+h1{
+    background-color: lightblue;
+    color: darkcyan;
+    text-align: center;
+}
+
+h2{
+    background-color: pink;
+    color: deeppink;
+    text-align: center;
+}
+
+p{
+    background-color: darkolivegreen;
+    color: lime;
+    text-align: justify;
+}
+
+#subtit {
+    background-color: black;
+    color: silver;
+}
+
+.subtit {
+    background-color: darksalmon;
+    color: magenta;
+
+}
+
+.paragrafo {
+    background-color: blueviolet;
+    color: hotpink;
+}
+
