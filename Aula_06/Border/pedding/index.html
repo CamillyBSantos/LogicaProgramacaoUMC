@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model - Pedding</title>
+
+    <style>
+
+        .box{
+            text-align: center;
+            color: purple;
+            background-color: rgb(238, 131, 238);
+            border-radius: 15px;
+            border: 2px solid magenta;
+            box-shadow: 5px 5px 10px black;
+            width: 200px;
+
+        }
+
+        #box1{
+            padding: 10px;
+        }
+
+        #box2{
+            padding: 100px 50px;
+        }
+
+        #box3{
+            padding-top: 10px;
+            padding-left: 20px;
+            padding-right: 30px;
+            padding-bottom: 40px;
+        }
+
+        #box1:hover{
+            background-color: aqua;
+            cursor: grab;
+        }
+        #box2:hover{
+            background-color: black;
+            cursor: no-drop;            
+        }
+
+        #box3:hover{
+            background-color: red;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box" id="box1">
+        Esta é a primeira caixa.
+    </div>
+    <p></p>
+    <div class="box" id="box2">
+        Esta é a segunda caixa.
+    </div>
+    <p></p>
+    <div class="box" id="box3">
+        Esta é a terceira caixa.
+
+    </div>
+</body>
+</html>
