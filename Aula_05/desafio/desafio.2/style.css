@@ -1,6 +1,8 @@
 body{
-    width: 50;
+    width: 50%;
     margin: auto;
+    display: block;
+    margin: 8px;
 }
 
 h1{
@@ -10,28 +12,53 @@ h1{
 h1#destinos_incriveis {
     color: rgb(44, 62, 80);
     background-color: rgb(236, 240, 241);
+    font-size: 36px;
 }
 .paises{
     color: rgb(231, 76, 60);
     background-color: rgb(249, 235, 234);
+    font-size: 28px;
 }
 
 h1#maravilhas_naturais{
     color: rgb(39, 174, 96);
     background-color: rgb(233, 247, 239);
+    font-size: 36px;
 }
 
 .pontos_turisticos{
     color: rgb(39, 174, 96);
     background-color: rgb(233, 247, 239);
+    font-size: 28px;
 }
 
-h1#cidade_vibrantes{
+h1#cidade_vibrante{
     color: rgb(243, 156, 18);
     background-color: rgb(255, 243, 230);
+    font-size: 36px;
 }
 
 .cidades{
     color: rgb(243, 156, 18);
     background-color: rgb(255, 243, 230);
+    font-size: 28px;
+}
+
+h1#experiencias_culturais{
+    color:  rgb(142, 68, 173);
+    background-color: rgb(245, 230, 245);
+    font-size: 36px;
+}
+
+.experiencia{
+    color: rgb(142, 68, 173);
+    background-color: rgb(245, 230, 245);
+    font-size: 28px;
+}
+
+.paragrafo{
+    font-size: 1em;
+    color: #34495e;
+    text-align: justify;
+    line-height: 1.4;
 }
