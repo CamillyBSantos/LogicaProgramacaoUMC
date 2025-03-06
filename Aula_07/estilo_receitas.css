@@ -1,0 +1,76 @@
+:root{
+    --cor-cabecalho-inicial: #ec0d57;
+    --cor-cabecalho-final: #ee769e;
+    --cor-fundo-body: rgba(76, 0, 130, 0.445);
+    --cor-fundo-footer: #ec0d57, #ee769e; 
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--cor-fundo-body);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor-cabecalho-inicial), var(--cor-cabecalho-final));
+    color: white;
+    padding: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+header > p {
+    margin: 5px;
+}
+
+nav{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+nav > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+} 
+
+nav > a:hover{
+    background-color: mediumslateblue;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+main{
+    width: 50vw;
+    margin:20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+main > section> ul> li{
+    margin-top: 3p;
+}
+
+main > section> ol> li{
+    margin-top: 3p;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    width: 250px;
+    height: 200px;
+}
+
+footer{
+    text-align: center;
+    padding: 1px;
+    background-image: linear-gradient(to top,var(--cor-cabecalho-inicial), var(--cor-cabecalho-final));
+    color: white;
+    margin-top: 10px;
+}

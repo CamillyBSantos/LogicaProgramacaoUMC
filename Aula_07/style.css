@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:  rgba(76, 0, 130, 0.445);
+    text-align: center;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #ec0d57, #ee769e);
+    color: white;
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+header > p {
+    margin: 5px;
+}
+
+nav{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+nav > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+} 
+
+nav > a:hover{
+    background-color: mediumslateblue;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+main{
+    min-width: 50vh;
+}
+
+.receitas_container img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px black;
+}
+
+.receita_filho {
+    display: inline-block;
+    margin: 15px;
+}
+
+.receita_filho:hover{
+    transform: scale(1.15);
+
+
+}
+
+main > section > div > a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-image: linear-gradient(to top, #ec0d57, #ee769e);
+    color: white;
+    padding: 10px;
+    width: 100vw;
+}
