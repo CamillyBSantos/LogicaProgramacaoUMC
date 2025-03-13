@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.521);
+}
+
+table{
+    width: 60vw;
+    border-collapse: collapse;     
+}
+
+th, td{
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(37, 170, 223, 0.699);
+}
+
+th{
+    background-color: rgba(26, 89, 226, 0.733);
+}
