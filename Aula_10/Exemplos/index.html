@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <h1>Exemplo de Formulário</h1>
+
+    <form action="">
+        <p></p>
+            <label for="Nome">Nome: </label>
+            <input type="text" id="Nome" placeholder="Informe o seu nome" required>
+        </p>
+
+        <p>
+            <label for="Data">Data: </label>
+            <input type="date" id="Data" required>
+        </p>
+
+        <p>
+            <label for="number">Celular: </label>
+            <input type="number" id="number" placeholder="Informe seu número de celular" required>
+        </p>
+
+        <p>
+            <label for="Estado">Estado</label>
+            <select name="Estado" id="Estado">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+            </select>    
+        </p>
+
+        <p>
+            <label for="esportes">Esportes Favoritos:</label> <br>
+            <input type="checkbox" name="esportes" value="futebol"> Futebol <br>
+            <input type="checkbox" name="esportes" value="volei"> Vôlei <br>
+            <input type="checkbox" name="esportes" value="natacao"> Natação <br>
+            <input type="checkbox" name="esportes" value="basquete"> Basquete <br>
+            <input type="checkbox" name="esportes" value="corrida"> Corrida
+        </p>
+
+        <p>
+            <label for="curso">Curso</label> <br>
+            <input type="radio" name="curso" id="ADS"> Análise e Desenvolvimento de sistemas <br>
+            <input type="radio" name="curso" id="EngSof"> Engenheria de Software <br>
+            <input type="radio" name="curso"  id="CimComp"> Ciência da Computação <br>
+            <input type="radio" name="curso" id="SisInf"> Sistema da Informação
+        </p>
+
+        <p>
+            <label for="Email">E-mail: </label>
+            <input type="email" id="Email" placeholder="Insira o seu e-mail" required>
+        </p>
+
+        <p>
+            <label for="senha">Senha </label>
+            <input type="password" id="senha" placeholder="Insira sua senha" required> 
+        </p>
+
+        <p>
+            <label for="mensagem">Reclamação</label>
+            <textarea name="mensagem" id="mensagem"></textarea>
+        </p>
+
+        <p>
+           <button type="submit">Enviar</button>
+           <button type="reset">Limpar</button>
+        </p>
+    </form>
+
+</body>
+</html>
