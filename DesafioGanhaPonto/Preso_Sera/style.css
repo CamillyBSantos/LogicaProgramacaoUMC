@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(depositphotos_62141917-stock-photo-young-cool-black-man-doubting.jpg);
+    background-size:contain; 
+    background-repeat: repeat-x; 
+    background-attachment: fixed; 
+}
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+input {
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 50%;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+
+    text-decoration: none;
+    background-color: olive;
+    padding: 8px;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+.container {
+    background: rgba(0, 0, 0, 0.356);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
