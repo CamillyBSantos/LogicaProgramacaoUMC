@@ -5,14 +5,10 @@ $password = "";
 $dbName = "faculdade";
 
 //Criando conexão
-
 $coon = new mysqli($_severName, $userName, $password, $dbName);
 
 //Validação de Conexão
 if ($coon->connect_error) {
     echo"Conexão Falhou";}
-
-else{
-    echo"Conexão feita com sucesso!";}    
 
 ?>
