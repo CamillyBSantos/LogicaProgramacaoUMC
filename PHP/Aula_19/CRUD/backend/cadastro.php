@@ -11,9 +11,9 @@
     <header>
         <nav>
             <ul>
-                <li><a href="">Início</a></li>
+                <li><a href="../index.php">Início</a></li>
                 <li><a href="">Cadastrar Usuário</a></li>
-                <li><a href="">Listas de Usuários</a></li>
+                <li><a href="verificarCadastro.php">Listas de Usuários</a></li>
             </ul>            
         </nav>
     </header>
